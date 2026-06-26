@@ -46,6 +46,26 @@ This application was meticulously crafted to score **100/100 points** across all
 
 ---
 
+## 📂 Project Structure
+├── public/                  # Static assets (favicons, icons)
+├── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── Hero.tsx         # Premium intro, headline & main CTAs
+│   │   ├── Infrastructure.tsx # Terminal window & SDK step sequence
+│   │   ├── Features.tsx     # Bento-grid to responsive mobile accordion
+│   │   ├── Pricing.tsx      # Matrix-driven core with strict DOM state isolation
+│   │   ├── Testimonials.tsx # Grid layout with hardware-accelerated transitions
+│   │   ├── Mission.tsx      # Core foundational mission text
+│   │   └── Footer.tsx       # Semantic footer with navigation links
+│   ├── index.css            # Tailwind CSS v4 imports and custom animation utilities
+│   ├── main.tsx             # Entry orchestrator and micro-loader initialization
+│   └── vite-env.d.ts        # TypeScript ambient type declarations
+├── .gitignore               # Version control exclusions
+├── index.html               # Semantic DOM root with extensive SEO metadata hygiene
+├── package.json             # Project dependencies and deployment scripts
+├── tsconfig.json            # Base TypeScript compilation configurations
+└── vite.config.ts           # Bundler environment configuration
+
 ## 🚀 Quick Start (Local Development)
 
 To run this project locally:
