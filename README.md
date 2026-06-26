@@ -57,10 +57,11 @@ This application was meticulously crafted to score **100/100 points** across all
 │   │   ├── Testimonials.tsx # Grid layout with hardware-accelerated transitions
 │   │   ├── Mission.tsx      # Core foundational mission text
 │   │   └── Footer.tsx       # Semantic footer with navigation links
-│   ├── index.css            # Tailwind CSS v4 imports and custom animation utilities
+│   ├── index.css            # Tailwind CSS v4 imports and custom utilities
 │   ├── main.tsx             # Entry orchestrator and micro-loader initialization
 │   └── vite-env.d.ts        # TypeScript ambient type declarations
 ├── .gitignore               # Version control exclusions
+├── .oxlintrc.json           # Oxlint speed-optimized linter configuration
 ├── index.html               # Semantic DOM root with extensive SEO metadata hygiene
 ├── package.json             # Project dependencies and deployment scripts
 ├── tsconfig.json            # Base TypeScript compilation configurations
