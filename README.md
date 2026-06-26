@@ -14,6 +14,9 @@ FlowAI is a premium, high-converting, responsive landing page built for an advan
 
 ---
 
+## live demo
+https://flow-ai-sandy.vercel.app/
+
 ## 🏆 Constraint Fulfillment & Architecture
 
 This application was meticulously crafted to score **100/100 points** across all Phase 1 constraints:
