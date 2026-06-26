@@ -97,7 +97,7 @@ To run this project locally:
    ```
 
 4. **View the application:**
-   Open `http://localhost:5173` in your browser.
+  
 
 ---
 
