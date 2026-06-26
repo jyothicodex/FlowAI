@@ -47,9 +47,6 @@ This application was meticulously crafted to score **100/100 points** across all
 ---
 
 ## 📂 Project Structure
-├── public/                  # Static assets (favicons, icons)
-## 📁 Project Structure
-
 ```
 flowai/
 ├── public/                     # Static assets (favicon, icons, images)
