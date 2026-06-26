@@ -1,4 +1,5 @@
-import { useState, useRef, MouseEvent, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import type { MouseEvent } from 'react';
 import { FadeIn } from './FadeIn';
 
 const pricingConfig = {

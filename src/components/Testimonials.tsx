@@ -71,7 +71,6 @@ const stats = [
 const TestimonialCard = ({ testimonial, isFocused, anyHovered, onHover }: any) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!cardRef.current) return;
@@ -85,8 +84,8 @@ const TestimonialCard = ({ testimonial, isFocused, anyHovered, onHover }: any) =
     <div 
       ref={cardRef}
       onMouseMove={handleMouseMove}
-      onMouseEnter={() => { setIsHovering(true); onHover(testimonial.id); }}
-      onMouseLeave={() => { setIsHovering(false); onHover(null); }}
+      onMouseEnter={() => { onHover(testimonial.id); }}
+      onMouseLeave={() => { onHover(null); }}
       className={`h-full relative group rounded-3xl border border-gray-100 bg-white p-8 overflow-hidden transition-all duration-500 cursor-default ${
         anyHovered ? (isFocused ? 'scale-105 shadow-[0_20px_40px_rgba(0,0,0,0.12)] z-10' : 'scale-95 opacity-50 blur-[1px]') : 'shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]'
       }`}
